@@ -42,13 +42,4 @@ public class EmailSenderService {
         mimeMessage.setText(message);
         Transport.send(mimeMessage);
     }
-
-    public static void main(String[] args) {
-        try {
-            EmailSenderService email = new EmailSenderService();
-            email.sendMessage("iammafiozy@gmail.com", new GenerateCodeService().getCode());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }
