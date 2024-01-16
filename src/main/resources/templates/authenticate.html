@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="authenticate.css">
+    <title>Форма проверки кода</title>
+</head>
+<body>
+<div class="container">
+    <div class="circle">
+        <form method="POST">
+            <div class="form-cont">
+                <h2>Подтверждение через почту</h2>
+                <span>Введите код, отправленный на почту</span>
+                <br>
+                <input type="text" placeholder="Код подтверждение с email" name="code" required>
+                <br>
+                <button type="submit"><span>Подтвердить</span></button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

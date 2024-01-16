@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+body {
+    background-color: #f1f2f6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0 0 1px;
+    background-color: #fff;
+    width: 1500px;
+    height: 69px;
+}
+
+.profile-img {
+    padding: 10px 12px 2px 0px;
+}
+
+.header-logo {
+    padding: 12px 0 0 17px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.new {
+    color: #1877f2;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #788292;
+}
+
+.menu {
+    background-color: #fff;
+    width: 75px;
+}
+
+.menu-container {
+    list-style: none;
+    padding: 24px;
+}
+
+.menu-img {
+    width: 26px;
+    height: 27px;
+    margin-bottom: 30.56px;
+
+}
+
+.one-line-container {
+    display: flex;
+}
+
+
+.first-column {
+    margin-left: 56px;
+}
+
+.profile-container {
+    background-color: #fff;
+    width: 274px;
+    height: 214px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.active {
+    color: #788292;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.classs {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1877f2;
+    border-radius: 40px;
+    padding: 9px;
+    margin-top: 12px;
+    background: #F0F7FF;
+}
+
+.call {
+    color: #1877f2;
+    font-size: 12px;
+}
+
+.friends-container {
+    background-color: #fff;
+    width: 274px;
+    height: 479px;
+}
+
+.friends-container span {
+    color: #788292;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.friends-container hr {
+    width: 274px;
+    height: 0px;
+    stroke-width: 1px;
+    stroke: #F1F2F6;
+}
+
+.friend-container {
+    width: 274px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.friend-container span {
+    margin-left: 18px;
+}
+
+.friend-container img {
+    margin-left: 27px;
+}
+
+.second-column {
+    margin: 22px 0 0 29px;
+}
+
+.on-mind {
+    background-color: #fff;
+    width: 622px;
+    height: 55px;
+}
+
+.on-mind span {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: #788292;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.person-inf {
+    display: flex;
+    align-items: center;
+}
+
+.person-inf img {
+    margin: 23px 19px 16px 34px;
+}
+
+.post1-container {
+    background-color: #fff;
+    width: 622px;
+    height: 202px;
+    margin-top: 14px;
+}
+
+.likes {
+    margin: 12px 0 0 469px;
+}
+
+.razmer {
+    background-color: #fff;
+    width: 622px;
+    height: 424px;
+}
+
+.imgs-in_post {
+    display: flex;
+    padding-left: 32px;
+    margin-top: 16px;
+}
+
+.name-post {
+    font-size: 17px;
+    font-weight: 600;
+    color: #203758;
+    margin-bottom: 6px;
+}
+
+.text-post {
+    color: #203758;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 29px;
+}
+
+.third-column {
+    margin-left: 29px;
+}
+
+.follow-container {
+    background-color: #fff;
+    width: 363px;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follower-cont {
+    height: 61px;
+    display: flex;
+    align-items: center;
+
+}
+
+.follower-cont span {
+    padding-top: 15px;
+    color: #788292;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 9px 0 22px 15px;
+}
+
+.follower-cont img {
+    margin: 14px 0 13px 27px;
+}
+
+.follower-cont button {
+    width: 71px;
+    height: 31px;
+    background-color: #F0F7FF;
+    font-size: 11px;
+    font-weight: 600;
+    color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    margin: 16px 26px 14px 30px;
+}
+
+.border_6px {
+    border-radius: 6px;
+}
+
+.follow-txt {
+    width: 160px;
+}

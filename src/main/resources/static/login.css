@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    background-color: rgb(242, 242, 244);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facebook-header {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 275px 52px;
+}
+
+.header-txt {
+    font-family: ' Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.fb-img {
+    width: 321px;
+    height: 106px;
+}
+
+.facebook-main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px 0 0;
+}
+
+.form-container {
+    width: 396px;
+    height: 410px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-facebook {
+    display: flex;
+    flex-direction: column;
+    padding: 29px 18px 38px 15px;
+    align-items: center;
+}
+
+.main-form {
+    width: 363.6px;
+    height: 51.6px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    font-size: 20px;
+    background: #FFF;
+}
+
+.main-form:focus {
+    box-shadow: 0px 0px 4px #1877EE;
+    outline: none;
+    border: 1px solid #1877EE;
+    font-size: 20px;
+}
+
+.ml_pass {
+    margin: 22px 0 24px 0;
+}
+
+.main-form::placeholder {
+    color: #C4C4C4;
+    font-family: ' Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 10px 10px;
+}
+
+
+.main-sign_in {
+    width: 364px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #1877EE;
+    background: #1877EE;
+    margin-bottom: 27px;
+}
+
+.main-line {
+    content: '';
+    background-color: #C4C4C4;
+    width: 300px;
+    margin: 27px 0 33px 0;
+}
+
+.main-forget {
+    color: #1877EE;
+    text-align: center;
+    font-family: ' Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form-facebook a {
+    text-decoration: none;
+}
+
+.main-sign_up {
+    width: 200.46px;
+    height: 48px;
+    border-radius: 10px;
+    background: #17BF13;
+    border: none;
+}
+
+.main-txt {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.txt-2 {
+    font-size: 16px;
+}
+
+.facebook-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+}
+
+.footer-person {
+    display: flex;
+    flex-direction: column;
+    color: #C4C4C4;
+    margin-bottom: 5px;
+}
+
+.footer-person a {
+    text-decoration: none;
+    color: #C4C4C4;
+}
+
+.footer-person a:hover {
+    color: #1877EE;
+}
