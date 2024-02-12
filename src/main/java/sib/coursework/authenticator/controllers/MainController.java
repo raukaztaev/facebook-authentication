@@ -26,7 +26,7 @@ public class MainController {
 
     @GetMapping("/login")
     public String login() {
-        return "login";
+        return "index";
     }
 
     @GetMapping("/home")
@@ -62,7 +62,7 @@ public class MainController {
             redirectAttributes.addAttribute("email", email);
             return "redirect:/authenticate";
         } else {
-            return "login";
+            return "index";
         }
     }
 
