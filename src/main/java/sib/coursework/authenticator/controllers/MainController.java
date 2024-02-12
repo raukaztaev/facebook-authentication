@@ -24,6 +24,12 @@ public class MainController {
     private final EmailSenderService emailSender = new EmailSenderService();
     private static String generatedCode;
 
+
+    @GetMapping("/")
+    public String loginRoot() {
+        return "index";
+    }
+
     @GetMapping("/index")
     public String login() {
         return "index";
