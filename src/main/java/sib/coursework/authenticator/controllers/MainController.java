@@ -24,7 +24,7 @@ public class MainController {
     private final EmailSenderService emailSender = new EmailSenderService();
     private static String generatedCode;
 
-    @GetMapping("/login")
+    @GetMapping("/index")
     public String login() {
         return "index";
     }
@@ -54,7 +54,7 @@ public class MainController {
         return "authenticate";
     }
 
-    @PostMapping("/login")
+    @PostMapping("/index")
     public String login(@RequestParam String email,
                         @RequestParam String password,
                         RedirectAttributes redirectAttributes) {
